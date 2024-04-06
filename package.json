@@ -1,5 +1,5 @@
 {
-  "name": "poochoai",
+  "name": "my-gpt",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.5.0",
-    "axios": "^1.6.8",
-    "dotenv": "^16.4.5",
-    "next": "14.1.4",
-    "openai": "^4.32.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "next": "14.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
