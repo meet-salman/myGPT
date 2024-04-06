@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* layout */
+.layout {
+  @apply min-h-screen max-h-fit p-8 flex flex-col items-center justify-between bg-[#1e1e1e];
+}
+
+
+
+/* Heading */
+.head {
+  @apply text-5xl text-gray-500;
+}
+
+.sp-head {
+  @apply bg-gradient-to-r from-[#4285f4] via-[#9b72cb] to-[#d96570] bg-clip-text text-transparent;
+}
+
+
+
+/* Results */
+.prompt {
+  @apply text-lg text-gray-300 font-medium;
+}
+
+.answer {
+  @apply  text-gray-400 font-medium;
+}
+
+.result_box {
+  @apply w-[50%] h-[100vh] mt-5 flex flex-col;
+}
+
+
+
+
+/* Prompt Form */
+.prompt-form {
+  @apply flex justify-center gap-5;
+}
+
+.input {
+  @apply w-[80%] p-3 text-gray-300 rounded-md border-2 border-gray-700 focus:border-gray-600 focus:outline-none bg-transparent;
+}
+
+.btn {
+  @apply text-3xl bg-gradient-to-r from-[#4285f4] via-[#9b72cb] to-[#d96570] bg-clip-text text-transparent;
+}
